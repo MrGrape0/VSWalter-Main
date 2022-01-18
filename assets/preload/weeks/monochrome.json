@@ -1,0 +1,30 @@
+{
+	"songs": [
+		[
+			"Monochrome",
+			"walter",
+			[
+				0,
+				0,
+				40
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"walter",
+		"bf",
+		"gf"
+	],
+	"storyName": "cool",
+	"weekName": "Monochrome",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

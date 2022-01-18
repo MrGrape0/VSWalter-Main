@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "BF HEY! !",
+	"idle_anim": "Idle",
+	"position": [
+		273,
+		387
+	],
+	"scale": 0.4,
+	"image": "Menu_Walter"
+}

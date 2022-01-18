@@ -1,0 +1,29 @@
+{
+	"storyName": "Funny guy with a top hat",
+	"hideFreeplay": false,
+	"weekBackground": "walter",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Chill-ties",
+			"walter",
+			[
+				40,
+				20,
+				55
+			]
+		]
+	],
+	"weekName": "walter_week"
+}
