@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				159,
+				230
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				159,
+				230
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				159,
+				230
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				227
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				126,
+				227
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "AltIdle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/WalterAlt",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "walter",
+	"flip_x": false,
+	"healthbar_colors": [
+		51,
+		55,
+		69
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.72
+}

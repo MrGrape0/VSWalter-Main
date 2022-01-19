@@ -103,6 +103,12 @@ class MainMenuState extends MusicBeatState
 		backdrops.velocity.set(10, 10);
 		add(backdrops);
 
+		var blackThing = new FlxSprite(0, -10).loadGraphic(Paths.image('BlackThing'));
+		blackThing.setGraphicSize(Std.int(blackThing.width * 1.175));
+		blackThing.updateHitbox();
+		blackThing.antialiasing = ClientPrefs.globalAntialiasing;
+		add(blackThing);
+
 		if(FlxG.save.data.backdrops == false)
 		{
 			backdrops.alpha = 0;
@@ -111,7 +117,7 @@ class MainMenuState extends MusicBeatState
 		var walterHi:FlxSprite = new FlxSprite(740, 30);
 		//                                       X, Y
 		walterHi.frames = Paths.getSparrowAtlas('spritesMainmenu/WalterHi');
-		walterHi.animation.addByPrefix('idle', "Hello");
+		walterHi.animation.addByPrefix('idle', "Hello", 18);
 		walterHi.animation.play('idle');
 		walterHi.scrollFactor.set(0);
 		walterHi.updateHitbox();
@@ -168,9 +174,11 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
+			menuItem.angle -= 3;
+			FlxTween.tween(menuItem, {x: 110}, 1.3, {ease: FlxEase.expoInOut});
 			menuItem.ID = i;
 			//menuItem.screenCenter(X);
-			menuItem.x += 100;
+			menuItem.x = 0;
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
@@ -195,7 +203,7 @@ class MainMenuState extends MusicBeatState
 		modVersion.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(modVersion);
 
-		var support:FlxText = new FlxText(FlxG.width-370, FlxG.height - 18, 0 , "Press 5 to support the original FNF Devs.",12);
+		var support:FlxText = new FlxText(FlxG.width-370, FlxG.height - 18, 0 , "Support the original game!(Press 5)",12);
 		support.scrollFactor.set();
 		support.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(support);
@@ -243,8 +251,7 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
-
-
+		
 		if (!selectedSomethin)
 		{
 			if (controls.UI_UP_P)
@@ -292,6 +299,8 @@ class MainMenuState extends MusicBeatState
 
 					menuItems.forEach(function(spr:FlxSprite)
 					{
+
+						
 						if (curSelected != spr.ID)
 						{
 							FlxTween.tween(spr, {alpha: 0}, 0.4, {
