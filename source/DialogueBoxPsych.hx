@@ -448,7 +448,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			}
 		}
 
-		if (FlxG.keys.justPressed.BACKSPACE)
+		if (PlayerSettings.player1.controls.BACK)
 			{
 				finishThing();
 				kill();

@@ -1,0 +1,4 @@
+So...
+I lost the .fla of the Title Menu sprites (Start_Screen_Assets)
+So yea,if you want to edit it, you will need to edit using the sprite sheet, or recreate one.
+I'm very dumb lol, sorry.

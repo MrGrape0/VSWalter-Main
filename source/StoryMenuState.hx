@@ -326,6 +326,8 @@ class StoryMenuState extends MusicBeatState
 		#if !switch
 		intendedScore = Highscore.getWeekScore(WeekData.weeksList[curWeek], curDifficulty);
 		#end
+
+
 	}
 
 	var lerpScore:Int = 0;

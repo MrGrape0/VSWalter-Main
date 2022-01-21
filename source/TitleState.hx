@@ -125,7 +125,7 @@ class TitleState extends MusicBeatState
 		#elseif CHARTING
 		MusicBeatState.switchState(new ChartingState());
 		#else
-		if(FlxG.save.data.flashing == false && FlxG.save.data.backdrops == false && !FlashingState.leftState) {
+		if(FlxG.save.data.flashing == null && FlxG.save.data.backdrops == null && !FlashingState.leftState) {
 			FlxTransitionableState.skipNextTransIn = true;
 			FlxTransitionableState.skipNextTransOut = true;
 			MusicBeatState.switchState(new FlashingState());
@@ -231,7 +231,7 @@ class TitleState extends MusicBeatState
 		demo = new FlxSprite(1500, 450);
 		demo.frames = Paths.getSparrowAtlas('demo');
 		demo.antialiasing = ClientPrefs.globalAntialiasing;
-		demo.animation.addByPrefix('bump', 'Demo', 24);
+		demo.animation.addByPrefix('bump', 'Demo', 18);
 		demo.animation.play('bump');
 		demo.visible = false;
 		demo.updateHitbox();
@@ -488,9 +488,6 @@ class TitleState extends MusicBeatState
 		if(!skippedIntro) FlxTween.tween(FlxG.camera, {zoom:1.025}, 0.3, {ease: FlxEase.quadOut, type: BACKWARD});
 
 		if(logoBl != null) 
-			logoBl.animation.play('bump');
-
-		if(demo != null) 
 			logoBl.animation.play('bump');
 
 		if(walter != null) 
