@@ -36,7 +36,7 @@ class WalterEasterEgg extends MusicBeatState
 	   DiscordClient.changePresence("Looking at a dog.", null);
 	   #end
 
-	   trace('Dog jumpscare');
+	   trace('Dog jumpscare!!!');
 
 		super.create();
 	}

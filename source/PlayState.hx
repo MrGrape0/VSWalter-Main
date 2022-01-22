@@ -639,10 +639,6 @@ class PlayState extends MusicBeatState
 					add(bgGirls);
 				}
 
-			case 'lost-walter': //Monochrome cover
-			{
-				//Nothing :p
-			}
 			case 'schoolEvil': //Week 6 - Thorns
 				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
 				GameOverSubstate.loopSoundName = 'gameOver-pixel';
@@ -891,6 +887,7 @@ class PlayState extends MusicBeatState
 		strumLineNotes = new FlxTypedGroup<StrumNote>();
 		add(strumLineNotes);
 		add(grpNoteSplashes);
+
 
 		if(ClientPrefs.timeBarType == 'Song Name')
 		{
@@ -1165,7 +1162,6 @@ class PlayState extends MusicBeatState
 				iconP2.alpha = 0;
 				scoreTxt.alpha = 0;
 				timeTxt.alpha = 0;
-				dad.visible = false;
 				gf.visible = false;
 				boyfriend.visible = false;
 		    }	

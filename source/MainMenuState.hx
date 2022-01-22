@@ -156,6 +156,7 @@ class MainMenuState extends MusicBeatState
 		  //So funny!!1!
 		}			
 
+
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
 
@@ -208,6 +209,16 @@ class MainMenuState extends MusicBeatState
 		support.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(support);
 
+		var two:FlxText = new FlxText(FlxG.width-370, FlxG.height - 18, 0 , "Congrats!You found a easter egg! (Press 2)",12);
+		two.setFormat(Paths.font("VCR OSD Mono"), 16, FlxColor.WHITE, LEFT);
+		two.scrollFactor.set();
+
+		if (FlxG.random.bool(15))
+		{
+	      remove(support);
+		  add(two);
+		  //A dog.
+		}
 
 		// NG.core.calls.event.logEvent('swag').send();
 
