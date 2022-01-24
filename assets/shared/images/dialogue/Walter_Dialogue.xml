@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Walter_Dialogue.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Happy0000" x="0" y="0" width="739" height="1097"/>
+	<SubTexture name="Happy0001" x="739" y="0" width="739" height="1097"/>
+	<SubTexture name="Happy0002" x="1478" y="0" width="739" height="1097"/>
+	<SubTexture name="Happy0003" x="2217" y="0" width="739" height="1097"/>
+	<SubTexture name="Happy0004" x="2956" y="0" width="739" height="1097"/>
+	<SubTexture name="Happy0005" x="2956" y="0" width="739" height="1097"/>
+	<SubTexture name="HappyEnd0000" x="2956" y="0" width="739" height="1097"/>
+	<SubTexture name="HappyEnd0001" x="2956" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGo0000" x="3695" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGo0001" x="4434" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGo0002" x="5173" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGo0003" x="5912" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGo0004" x="6651" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGo0005" x="6651" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGoEnd0000" x="7390" y="0" width="739" height="1097"/>
+	<SubTexture name="LetsGoEnd0001" x="7390" y="0" width="739" height="1097"/>
+	<SubTexture name="Nervous0000" x="0" y="1097" width="739" height="1097"/>
+	<SubTexture name="Nervous0001" x="739" y="1097" width="739" height="1097"/>
+	<SubTexture name="Nervous0002" x="1478" y="1097" width="739" height="1097"/>
+	<SubTexture name="Nervous0003" x="2217" y="1097" width="739" height="1097"/>
+	<SubTexture name="Nervous0004" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="Nervous0005" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="NervousEnd0000" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="NervousEnd0001" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="NervousEnd0002" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="NervousEnd0003" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="NervousEnd0004" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="NervousEnd0005" x="2956" y="1097" width="739" height="1097"/>
+	<SubTexture name="Neutral0000" x="3695" y="1097" width="739" height="1097"/>
+	<SubTexture name="Neutral0001" x="4434" y="1097" width="739" height="1097"/>
+	<SubTexture name="Neutral0002" x="5173" y="1097" width="739" height="1097"/>
+	<SubTexture name="Neutral0003" x="5912" y="1097" width="739" height="1097"/>
+	<SubTexture name="Neutral0004" x="6651" y="1097" width="739" height="1097"/>
+	<SubTexture name="Neutral0005" x="6651" y="1097" width="739" height="1097"/>
+	<SubTexture name="NeutralEnd0000" x="7390" y="1097" width="739" height="1097"/>
+	<SubTexture name="NeutralEnd0001" x="7390" y="1097" width="739" height="1097"/>
+	<SubTexture name="NeutralEnd0002" x="7390" y="1097" width="739" height="1097"/>
+	<SubTexture name="NeutralEnd0003" x="7390" y="1097" width="739" height="1097"/>
+	<SubTexture name="NeutralEnd0004" x="7390" y="1097" width="739" height="1097"/>
+	<SubTexture name="NeutralEnd0005" x="7390" y="1097" width="739" height="1097"/>
+	<SubTexture name="Question10000" x="0" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question10001" x="739" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question10002" x="1478" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question10003" x="2217" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question10004" x="2956" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question10005" x="2956" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question1End0000" x="3695" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question1End0001" x="3695" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question1End0002" x="3695" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question1End0003" x="3695" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question1End0004" x="3695" y="2194" width="739" height="1097"/>
+	<SubTexture name="Question1End0005" x="3695" y="2194" width="739" height="1097"/>
+	<SubTexture name="Surprised0000" x="4434" y="2194" width="739" height="1097"/>
+	<SubTexture name="Surprised0001" x="4434" y="2194" width="739" height="1097"/>
+	<SubTexture name="Surprised0002" x="5173" y="2194" width="739" height="1097"/>
+	<SubTexture name="Surprised0003" x="5912" y="2194" width="739" height="1097"/>
+	<SubTexture name="Surprised0004" x="5912" y="2194" width="739" height="1097"/>
+	<SubTexture name="Surprised0005" x="6651" y="2194" width="739" height="1097"/>
+	<SubTexture name="SurprisedEnd0000" x="7390" y="2194" width="739" height="1097"/>
+	<SubTexture name="SurprisedEnd0001" x="7390" y="2194" width="739" height="1097"/>
+</TextureAtlas>

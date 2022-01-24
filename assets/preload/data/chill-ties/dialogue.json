@@ -1,32 +1,221 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "question",
+			"text": "Uh...Who are you guys?",
 			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
+		},
+		{
+			"expression": "shocked",
+			"text": "Uh...Who are YOU, I never saw you on this in city.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Uh...yea, I never saw you before...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "nervous",
+			"text": "Oh yea... ",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
+		},
+		{
 			"expression": "talk",
-			"text": "Ok so this is uuuuuuh"
+			"text": "I'm Walter.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
 		},
 		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "pissed",
-			"text": "A dialogue test"
-		},
-		{
-			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Very cool!!1!"
+			"text": "Walter H. Freedom.",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
 		},
 		{
+			"expression": "talk",
+			"text": "I thought this stage was abandoned, so I turned it into my own museum.",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "walter"
+		},
+		{
+			"expression": "talk",
+			"text": "I mean, it's a museum in my mind.",
+			"boxState": "normal",
 			"speed": 0.05,
+			"portrait": "walter"
+		},
+		{
+			"expression": "question",
+			"text": "Due to everthing that is in here is messy...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
+		},
+		{
+			"expression": "confused",
+			"text": "*Boyfriend, I think we will need to practice your karaoke in another place...*",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "shocked",
+			"text": "*Yea, it's a bit weird to sing in a... Museum?*",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Wait...did you said /''Sing''!?",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
+		},
+		{
+			"expression": "talk",
+			"text": "Uh...yea...?\\ Why?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.075
+		},
+		{
+			"expression": "happy",
+			"text": "Ah...the old days... ",
+			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.07
+		},
+		{
+			"expression": "happy",
+			"text": "When I was... around your age, I used to hang out with my friends on fridays...",
+			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.075
+		},
+		{
+			"expression": "happy",
+			"text": "We always went to a karaoke, who stayed in the last rank had to paid a drink for\\neveryone.",
+			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.075
+		},
+		{
+			"expression": "talk",
+			"text": "Excuse me sir, how old are you now?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "I'm 500 years old.",
+			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "Damn, it was REALLY a long time ago.",
+			"boxState": "normal",
 			"portrait": "gf",
+			"speed": 0.05
+		},
+		{
+			"expression": "nervous",
+			"text": "Anyways, you can go sing somewhere else, sorry to disturb you with my story.",
 			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.05
+		},
+		{
 			"expression": "talk",
-			"text": "ikr"
+			"text": "Eh, it's fine...",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "I was thinking...",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05
+		},
+		{
+			"expression": "pissed",
+			"text": "Do you think you can still keep up the rhythm like you used to?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		},
+		{
+			"expression": "question1",
+			"text": "Huh...?",
+			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.04
+		},
+		{
+			"expression": "shocked",
+			"text": "*Boyfriend, I don't think that's a good idea.\\ Remember what happened with some guys that you fought?",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.03
+		},
+		{
+			"expression": "talk",
+			"text": "*C'mon, everthing will be fine, plus, he seems chill.\\ And he looks old too.",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05
+		},
+		{
+			"expression": "confused",
+			"text": "Uuh...If you say so...",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05
+		},
+		{
+			"expression": "pissed",
+			"text": "So, what do you say, Walter?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.05
+		},
+		{
+			"expression": "surprised",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.34
+		},
+		{
+			"expression": "go",
+			"text": "Alright then!",
+			"boxState": "normal",
+			"portrait": "walter",
+			"speed": 0.05
+		},
+		{
+			"expression": "pissed",
+			"text": "Bring it on then, Big Fella!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.04
 		}
 	]
 }

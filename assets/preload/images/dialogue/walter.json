@@ -1,0 +1,89 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		10,
+		-230
+	],
+	"scale": 1,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Neutral",
+			"idle_name": "NeutralEnd"
+		},
+		{
+			"loop_name": "Surprised",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "SurprisedEnd",
+			"anim": "surprised",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Nervous",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "NervousEnd",
+			"anim": "nervous",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Question1",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Question1End",
+			"anim": "question1",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "LetsGo",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "LetsGoEnd",
+			"anim": "go",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "HappyEnd",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Walter_Dialogue"
+}

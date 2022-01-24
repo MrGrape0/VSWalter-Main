@@ -210,7 +210,7 @@ class MainMenuState extends MusicBeatState
 		add(support);
 
 		var two:FlxText = new FlxText(FlxG.width-370, FlxG.height - 18, 0 , "Congrats!You found a easter egg! (Press 2)",12);
-		two.setFormat(Paths.font("VCR OSD Mono"), 16, FlxColor.WHITE, LEFT);
+		two.setFormat(Paths.font("VCR OSD Mono"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		two.scrollFactor.set();
 
 		if (FlxG.random.bool(15))

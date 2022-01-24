@@ -74,6 +74,9 @@ class Achievements {
 			}
 		}
 
+		//This code resets unlocked Achievements.
+	  //  if(achievementsMap.exists('walter_end')) achievementsMap.remove('walter_end');
+
 
 		// You might be asking "Why didn't you just fucking load it directly dumbass??"
 		// Well, Mr. Smartass, consider that this class was made for Mind Games Mod's demo,

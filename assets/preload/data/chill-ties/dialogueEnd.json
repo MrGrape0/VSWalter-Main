@@ -1,32 +1,109 @@
 {
 	"dialogue": [
 		{
-			"speed": 0.05,
-			"portrait": "bf",
+			"expression": "shocked",
+			"text": "Phew...",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "Ok so this is uuuuuuh"
+			"speed": 0.075,
+			"portrait": "bf"
 		},
 		{
 			"speed": 0.05,
 			"portrait": "bf",
 			"boxState": "normal",
+			"expression": "shocked",
+			"text": ""
+		},
+		{
 			"expression": "pissed",
-			"text": "A dialogue test"
+			"text": "Great job, buddy!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "happy",
+			"text": "Thanks!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
+		},
+		{
+			"expression": "talk",
+			"text": "It's been a long time since I've singed...",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "walter"
 		},
 		{
 			"speed": 0.05,
-			"portrait": "bf",
+			"portrait": "walter",
 			"boxState": "normal",
-			"expression": "talk",
-			"text": "Very cool!!1!"
+			"expression": "happy",
+			"text": "Thank you for making me relive this\\nexperince!"
 		},
 		{
 			"speed": 0.05,
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "end"
+			"text": "Well, that was a nice song!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Yea!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "walter",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, now I need to continue my ''Museum''\\nthank you for singing with me, Boyfriend."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Anytime!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "I know you're reading this, player, so...\\nGo check the Freeplay Menu.\\nThere is a surprise there."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Thank you for playing Vs Walter Demo!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "walter",
+			"boxState": "normal",
+			"expression": "question1",
+			"text": "?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Lol"
 		}
 	]
 }
